@@ -1,0 +1,22 @@
+{
+  "initial_budget": 1000,
+  "current_budget": -250,
+  "expenses": [
+    {
+      "name": "goat",
+      "cost": 450
+    },
+    {
+      "name": "ram",
+      "cost": 300
+    },
+    {
+      "name": "dog",
+      "cost": 300
+    },
+    {
+      "name": "cat",
+      "cost": 200
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+Welcome to the Budget Tracker!
+Your summary is calculated with a budget of 1000
+
+A) To add an expense type 'add'
+
+B) To delete an expense type 'delete'
+
+C) To edit an expense type 'edit'
+
+D) To edit your budget type 'budget'
+
+E) To show a summary of your expenses and the remaing budget left 'summary'
+
+f) To leave type 'done'
+
+
+What would you like to do today: summary
+
+Your Initial budget was: 1000
+Your current budget is: -250
+
+These are all your recorded expenses and their costs:
+Goat which cost 450
+Ram which cost 300
+Dog which cost 300
+Cat which cost 200
+
+===== Budget Summary =====
+Budget:        1000
+Total expense: 1250
+Remaining:     250 over your budget
+
+Press any key to return to the main menu :)
