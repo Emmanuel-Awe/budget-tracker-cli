@@ -7,3 +7,6 @@ venv/
 .DS_Store
 Receipt.json
 Receipt.txt
+data/Receipt.json
+data/Receipt.txt
+

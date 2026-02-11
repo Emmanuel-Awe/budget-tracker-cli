@@ -15,16 +15,7 @@ class ExpenseApp:
         self.loadJsonFile() 
 
     def getFileDir(self):
-        return(
-            Path.home()
-            / "OneDrive"
-            / "Desktop"
-            / "Documents"
-            / "Data Analyst or Machine Learning"
-            / "Personal"
-            / "Python"
-            / "Budget project 1"
-        )
+        return Path(__file__).resolve().parent / "data"
 
 
     def mainMenu(self):
@@ -328,5 +319,9 @@ class ExpenseApp:
         
         
     
-app = ExpenseApp()
-app.mainMenu()
+def main():
+    app = ExpenseApp()
+    app.mainMenu()
+
+if __name__ == "__main__":
+    main()
