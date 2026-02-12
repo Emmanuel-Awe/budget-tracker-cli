@@ -36,3 +36,8 @@ See: sample_output/Receipt.sample.json
 Notes
 
 On exit, the app writes receipt files to a local folder path (based on the code's getFileDir() function).
+
+## Demo
+🎥 Demo video: https://github.com/Emmanuel-Awe/budget-tracker-cli/releases/tag/v1.0-demo
+
+
