@@ -34,10 +34,12 @@ Sample Saved JSON
 See: sample_output/Receipt.sample.json
 
 Notes
-
 On exit, the app writes receipt files to a local folder path (based on the code's getFileDir() function).
 
 ## Demo
+
 🎥 Demo video: https://github.com/Emmanuel-Awe/budget-tracker-cli/releases/tag/v1.0-demo
 
+On exit, the app writes receipt files to a local folder path (based on the code's get_File_Dir() function).
 
+- Currently optimized for Windows because it uses `msvcrt.getch()` for “press any key” prompts.

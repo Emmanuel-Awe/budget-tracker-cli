@@ -14,7 +14,7 @@ class ExpenseApp:
         
         self.loadJsonFile() 
 
-    def getFileDir(self):
+    def get_File_Dir(self):
         return Path(__file__).resolve().parent / "data"
 
 
@@ -233,7 +233,7 @@ class ExpenseApp:
     def createTextFile(self):
         self.calculateTotals()
         
-        file_Dir = self.getFileDir()
+        file_Dir = self.get_File_Dir()
         
         file_Dir.mkdir(exist_ok=True)
         file = file_Dir / "Receipt.txt"
@@ -261,7 +261,7 @@ class ExpenseApp:
     def createJsonFile(self):
         self.calculateTotals()
         
-        file_Dir = self.getFileDir()
+        file_Dir = self.get_File_Dir()
         file_Dir.mkdir(exist_ok=True)
         file = file_Dir / "Receipt.json"
         
@@ -285,7 +285,7 @@ class ExpenseApp:
             print("⚠️ Could not save Receipt.json (file may be open elsewhere).")
 
     def loadJsonFile(self):
-        file_Dir = self.getFileDir()
+        file_Dir = self.get_File_Dir()
         file = file_Dir / "Receipt.json"
         
          # First run: nothing to load
